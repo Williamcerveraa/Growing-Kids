@@ -1,0 +1,92 @@
+
+.btn_ambiente{
+    background-color:#49cb5c;
+    color: black;
+}
+
+.btn_ambiente:hover{
+    background-color:#49cb5c;
+    color: black;
+}
+
+.btn_comida{
+    background-color:#acccc6;
+    color: black;
+}
+
+.btn_comida:hover{
+    background-color:#acccc6;
+    color: black;
+}
+
+.btn_lenguajes{
+    background-color:#ef7385;
+    color: black;
+}
+.btn_lenguajes:hover{
+    background-color:#ef7385;
+    color: black;
+}
+
+.btn_cultura{
+    background-color: #ff974a;
+    color: black;
+}
+
+.btn_cultura:hover{
+    background-color: #ff974a;
+    color: black;
+}
+
+.btn_musica{
+    background-color: #186c95;
+    color: black;
+}
+
+.btn_musica:hover{
+    background-color: #186c95;
+    color: black;
+}
+
+.btn_viajes{
+    background-color: #bae6ef;
+    color: black;
+}
+.btn_viajes:hover{
+    background-color: #bae6ef;
+    color: black;
+}
+
+/* .imagen_carousel{
+    max-height: 650px;
+} */
+
+.card_ambiente{
+    border: 3px #49cb5c dotted;
+}
+
+.card_comida{
+    border: 4px #acccc6 dotted;
+}
+.card_lenguajes{
+    border: 4px #ef7385 dotted;
+}
+.card_cultura{
+    border: 4px #ff974a dotted;
+}
+.card_musica{
+    border: 4px #186c95 dotted;
+}
+.card_viajes{
+    border: 4px #bae6ef dotted;
+}
+.enlaces-redes{
+    text-decoration: none;
+}
+.contenedor-login{
+    margin-top: 150px;
+}
+.img-login{
+    padding: 10px 0px;
+    min-height: 490px;
+}

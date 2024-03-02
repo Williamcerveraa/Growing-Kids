@@ -1,0 +1,81 @@
+.navbar a{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bg-coffe{
+    background-color: rgb(124, 75, 75);
+}
+
+.carousel-item{
+    min-height: 400px;
+}
+
+.services{
+    padding: 70px 0;
+}
+
+.enlaces-redes{
+    text-decoration: none;
+}
+.link-principal{
+    color: white;
+}
+.bg-toggler-icon{
+    background-color: white;
+}
+.bg-offcanvas{
+    background-color:#88BBF7;
+}
+footer{
+    background-color: #88BBF7;
+}
+.bg-navbar{
+    background-color: #88BBF7;
+}
+.card-footer{
+    background-color: transparent;   
+}
+
+.card-color-body{
+    color: white;
+}
+.contenedor-login{
+    margin-top: 150px;
+}
+.img-login{
+    padding: 10px 0px;
+    min-height: 490px;
+}
+.body-login{
+    background-color: #88BBF7;
+}
+.titulo-card{
+    font-size: 20px;
+}
+.btn-login-entrar{
+    background-color: #88BBF7;
+}
+
+
+@media (max-width: 767px ){
+    .carousel-item{
+        min-height: 400px;
+    }
+
+    .carousel-item img{
+        height: 400px;
+    }
+    
+    .services{
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 800px){
+    .contenedor-login{
+        margin-top: 120px;
+    }
+}
+
+
