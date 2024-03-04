@@ -11,8 +11,12 @@ $resultado = mysqli_query($conectar, $eliminar);
 if($resultado){
     echo
     '<script>
-    alert("SE ELIMINÓ EL ALUMNO CORRECTAMENTE");
-    location.href="veralumnos.php";
+    function recargar(){
+        location.href= "veralumnos.php";
+      }
+      
+      setTimeout(recargar, 1500);
+   
     </script>';
 }else{
     echo "FALLO";

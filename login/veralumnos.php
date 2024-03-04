@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="../css/estilos_dos.css">
     <title>Growing Kids | Panel Administrativo</title>
 </head>
@@ -58,7 +59,11 @@
                             <td><?php echo $fila["nombre_tutor"] ?></td>
                             <td><?php echo $fila["grado_alumno"] ?></td>
                             <td><a href="<?php echo $fila["acta_nacimiento"] ?>" target="_blank" class="btn btn-info text-white">Descargar</a></td>
-                            <td><a href="#" onclick="validar('eliminar_alumnos.php?id_alumno=<?php echo $fila['id_alumno']; ?>');" class="btn btn-danger">Eliminar</a></td>
+
+                            <td>
+                               
+                                <button type="button" class="btn btn-danger" onclick="eliminar('eliminar_alumnos.php?id_alumno=<?php echo $fila['id_alumno']; ?>');">Eliminar</button>
+                            </td>
                         </tr>
                     <?php
 
